@@ -26,6 +26,7 @@ body {
     margin: 0 auto;
 
 }
+/* hearder-section-style */
 .menu-container{
     display: flex;
     justify-content: space-between;
@@ -50,4 +51,48 @@ body {
     font-size: 30px;
 
 }
+/* hero-section-style */
+.hero-section{}
+.hero-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.hero-content{
+    width: 40%;
+}
+.hero-content h1{
+    font-size: 48px;
+    color: var(--black);
+    margin-bottom: 25px;
+}
+.hero-content p{
+    color: var(--secondary-color);
+    margin-bottom: 45px;
+    font-size: 21px;
+}
 
+.hero-content button{
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 9999px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 40px;
+
+}
+.hero-image{
+    width: 60%;
+}
+
+
+.hero-image img {
+    width: 100%;
+    padding-left: 50px;
+}
+.style-item-1{
+    position: absolute;
+    top: 160px;
+    z-index: -1;
+}

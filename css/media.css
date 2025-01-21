@@ -10,6 +10,22 @@
     .hamburger-icon{
         display: block;
     }
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .hero-content h1{
+        font-size: 35px;
+    }
+    .hero-image{
+        width: 100%;
+    }
+  
   
   }
   /* Small device(lanscape phones, less than 768px) */
@@ -23,6 +39,20 @@
     }
     .hamburger-icon{
         display: block;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content{
+        width: 100%;
+        text-align: center;
+
+    }
+    .hero-content h1{
+        font-size: 35px;
+    }
+    .hero-image{
+        width: 100%;
     }
   
   }
@@ -38,6 +68,20 @@
     .hamburger-icon{
         display: block;
     }
+    .hero-image{
+        width: 50%;
+    }
+    .hero-content{
+        width: 50%;
+    }
+    .hero-container{
+        gap: 20px;
+    }
+    .hero-content h1{
+        font-size: 35px;
+    }
+
+
 
   }
   /* Large device(dekstop, less than 1200px) */
